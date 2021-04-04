@@ -15,10 +15,14 @@ In_Order = ['C','B','E','D','F','N','J','X','A','G','I','H','Y','L','K','M','Z']
 
 Pre_Order = ['A','B','C','D','E','F','J','N','X','G','H','I','K','L','Y','M','Z']
 
+Post_Order = ['C','E','N','X','J','F','D','B','I','Y','L','Z','M','K','H','G','A']
 
 B_tree_Z = A_Node.Node()
 
 B_tree_A = Post_Order_Solution.Post_Solution()
 B_tree_Z = B_tree_A.buildTree(Pre_Order, In_Order)
 
-print(B_tree_Z.right.data)
+B_tree_B = Pre_Order_Solution.Pre_Solution()
+#B_tree_Z = B_tree_B.buildTree(Post_Order, In_Order)
+
+#print(B_tree_Z.right.data)
