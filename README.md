@@ -6,8 +6,10 @@ Binay Tree<br/>
 <br/>
 
 
-'In_Order = ['C','B','E','D','F','N','J','X','A','G','I','H','Y','L','K','M','Z']'
+`In_Order = ['C','B','E','D','F','N','J','X','A','G','I','H','Y','L','K','M','Z']`
 <br/>
 <br/>
-'Pre_Order = ['A','B','C','D','E','F','J','N','X','G','H','I','K','L','Y','M','Z']'
+`Pre_Order = ['A','B','C','D','E','F','J','N','X','G','H','I','K','L','Y','M','Z']`
 <br/>
+<br/>
+`Post_Order = ['C','E','N','X','J','F','D','B','I','Y','L','Z','M','K','H','G','A']`
